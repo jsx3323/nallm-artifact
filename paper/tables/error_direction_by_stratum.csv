@@ -1,0 +1,13 @@
+model,subtype,n,errors,abstention_err,overcommit_err,abstention_pct,overcommit_pct
+llm,P0-Low,4456,204,174,30,85.3,14.7
+llm,P0-Medium,1239,215,95,120,44.2,55.8
+llm,P0-High,78,10,2,8,20.0,80.0
+llm,P1-Weak,500,101,2,99,2.0,98.0
+llm,P1-Medium,2597,249,2,247,0.8,99.2
+llm,P1-High,2101,76,1,75,1.3,98.7
+feat,P0-Low,4456,110,58,52,52.7,47.3
+feat,P0-Medium,1239,62,29,33,46.8,53.2
+feat,P0-High,78,4,1,3,25.0,75.0
+feat,P1-Weak,500,45,1,44,2.2,97.8
+feat,P1-Medium,2597,196,1,195,0.5,99.5
+feat,P1-High,2101,76,1,75,1.3,98.7

@@ -1,0 +1,9 @@
+scope,rule,triggers,precision,note
+test(main line),A,325,,DeepSeek 快照+θ0.14/0.20 重放;2026-09-30 重算（旧记 260 系 luna 链）
+test(main line),B,224,,同上
+test(luna chain),A,260,,archives/test_luna_postprocessed.csv 的 rule_applied 计数
+test(luna chain),B,293,,同上
+valid(main line),A,352,0.861,与 §5.5 的 73/62 同口径;2026-09-30 重算（旧记 283/0.9399 盘上无对应物料）
+valid(main line),B,260,0.754,同上（旧记 259/0.8185）
+valid(main line),B lands on a wrong profile,2,0.008,rule B 恢复中判到非真值候选（=论文定义的错归属，真值在候选集内）;仲裁能产生错归属的唯一路径（它从不替换 LLM 已作的归属）;2026-10-01 新计，取源 scripts/case_studies.py
+valid(main line),P0-Low title>=0.75,341,0.077,valid P0-Low n=4456 中清过 0.75 门但 top5 均值不足者;分层判据为双阈值门

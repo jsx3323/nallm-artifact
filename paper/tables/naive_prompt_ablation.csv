@@ -1,0 +1,11 @@
+metric,value
+n_paired,500
+acc_naive_standard_prompt,0.8720
+acc_stratified_v41,0.9080
+diff_pp,+3.60
+mcnemar_b_c,6:24
+p_value,0.0014
+decision_agreement,0.9400
+pilot_n10,10
+source,results/disambiguation/valid_naive_500.csv
+note,valid 前 500 条同记录配对;全策略强制 standard 提示;对照 archives/valid_v41flash_llm_only.csv

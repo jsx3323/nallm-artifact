@@ -1,0 +1,4 @@
+layer,n,n_pct_of_valid,correct,correct_pct,truth_nil
+P1-Strong (bypass),912,6.6,903,99.0,5
+NONE (direct return),76,0.5,73,96.1,73
+two-layer total,988,7.1,,,

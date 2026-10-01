@@ -1,0 +1,5 @@
+error_type,nothink,default_think,max_think
+指错人,2,2,2
+误判,4,3,1
+漏判,7,21,24
+none率,0.425,0.5,0.525

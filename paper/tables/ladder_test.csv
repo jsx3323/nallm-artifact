@@ -1,0 +1,11 @@
+method,weighted_f1,channel
+IUAD,0.8234,原文报告
+CONNA,0.8964,原文报告
+CONNA+Ad-hoc,0.9114,原文报告
+Contest Winner (2023 快照),0.9349,原文报告
+RND-all,0.9352,final leaderboard
+NALLM ③+⑥ (主线 V3.2),0.93951,final leaderboard
+NALLM feat-only(无 LLM 消融),0.93655,final leaderboard
+NALLM ③+⑥ (v4.1 重建链),0.93613,final leaderboard
+NALLM 仅③ (V3.2 主线),0.92811,final leaderboard
+"NALLM 仅③ (luna,辅助)",0.92339,final leaderboard

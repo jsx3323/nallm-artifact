@@ -1,0 +1,7 @@
+setting,split,corpus,weighted_f1,wP,wR,note
+argmax,valid,mainline,0.8491,0.7465,0.9845,"永远给归属,none 率 0.8%"
+argmax+θ_a=0.14,valid,mainline,0.9632,0.9499,0.9769,"θ 为门语义借用、未为 argmax 调;泄漏检查干净;论文 §5.2.3 的 \FeatValid"
+argmax+θ_a=0.14,valid,luna,0.9637,0.9503,0.9774,"跨链对照(luna 记录集 13,825 条);正文不引用此口径"
+argmax+θ_a=0.14,test,mainline,0.93655,0.9268,0.9465,"榜单口径;低于全系统 0.296pp、高于 RND-all;与 valid 反转=泛化差异"
+θ_a 网格(valid),valid,mainline,0.9639@θ=0.19,,"借用 0.14 得 0.9632(差 +0.0007);0.10-0.27 内极差 ≤0.002(平台=网格最优 −0.002 内);基线无低估"
+θ_a 网格(valid),valid,luna,0.9643@θ=0.19,,"跨链对照;借用 0.14 得 0.9637(差 +0.0006)"

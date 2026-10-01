@@ -1,0 +1,12 @@
+# local env / secrets
+.env
+.venv/
+__pycache__/
+*.py[oc]
+*.log
+
+# benchmark-derived data stays out (license); fetch via WhoIsWho
+data/
+outputs/
+results/
+database/

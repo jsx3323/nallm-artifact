@@ -1,0 +1,16 @@
+subtype,n
+P0-Low,5456
+P1-Medium,2641
+P1-High,2091
+P0-Medium,1191
+P1-Strong,886
+P1-Weak,527
+P1-High-Comp,401
+P1-Medium-Comp,375
+P2,363
+P1-Strong-Comp,187
+P3,139
+P0-High,91
+P1-Weak-Comp,69
+NONE,41
+P2-Comp,21
